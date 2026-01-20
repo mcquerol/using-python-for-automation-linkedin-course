@@ -1,5 +1,7 @@
-
-# Ignore everything except Python for GitHub language stats
+# Ignore all PowerShell scripts from GitHub language stats
+*.ps1 linguist-detectable=false
+*.psm1 linguist-detectable=false
+*.psd1 linguist-detectable=false
 
 # Batch / CMD
 *.bat linguist-detectable=false
