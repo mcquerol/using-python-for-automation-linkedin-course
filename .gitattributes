@@ -1,4 +1,15 @@
-# Ignore all PowerShell scripts from GitHub language stats
-*.ps1 linguist-detectable=false
-*.psm1 linguist-detectable=false
-*.psd1 linguist-detectable=false
+
+# Ignore everything except Python for GitHub language stats
+
+# Batch / CMD
+*.bat linguist-detectable=false
+
+# Roff / man pages
+*.roff linguist-detectable=false
+*.man linguist-detectable=false
+
+# JavaScript
+*.js linguist-detectable=false
+
+# Any other misc files you don't want counted
+*.sh linguist-detectable=false
