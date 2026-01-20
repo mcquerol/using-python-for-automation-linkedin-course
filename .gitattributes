@@ -1,0 +1,4 @@
+# Ignore all PowerShell scripts from GitHub language stats
+*.ps1 linguist-detectable=false
+*.psm1 linguist-detectable=false
+*.psd1 linguist-detectable=false
